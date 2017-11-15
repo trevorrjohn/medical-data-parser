@@ -9,3 +9,7 @@ Goals
 - The module should be responsive and look fine at all sizes.
 - The mocks are simply a starting point. We encourage you to thing about what other information a doctor might want to see
 - How can we show more details? Tool tips? Graphs?
+
+Please do not spend more then a few hours. When you're finished, zip up the repo and email to you're contact at WellSheet.
+
+Good Luck!
