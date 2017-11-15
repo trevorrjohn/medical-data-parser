@@ -9,6 +9,11 @@ Goals
 - The module should be responsive and look fine at all sizes.
 - The mocks are simply a starting point. We encourage you to thing about what other information a doctor might want to see
 - How can we show more details? Tool tips? Graphs?
+- What is the current trend?
+- When were the last readings taken?
+- What are the referene ranges and where do the values fall within those?
+- Does anything need the doctors attention?
+- Are there different views for they want to see?
 
 Please do not spend more then a few hours. When you're finished, zip up the repo and email to you're contact at WellSheet.
 
