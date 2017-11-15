@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+This is the WellsheetInterview. Our goal is to design and build a basic module to display vital information. An initial design has been added to the repo in a file called Vitals Basic Mock. We have faked an example json respone from an EHR client in using the file config/vitals.json. Bootstrap and jquery have been imported to the application. Our goal is to design and build a vitals panel using the information from the vitals.json file. The json data has already been imported to ruby model via Vital Panel model.
 
-* Ruby version
+To setup the application, simply run rails s. A single endpoint has been added to the application, localhost:3000/vital. When you visit that endpoint you should see 'First Vital Abberviation: BP'. 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Goals
+- The module should be responsive and look fine at all sizes.
+- The mocks are simply a starting point. We encourage you to thing about what other information a doctor might want to see
+- How can we show more details? Tool tips? Graphs?
