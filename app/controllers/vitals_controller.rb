@@ -1,5 +1,5 @@
 class VitalsController < ApplicationController
   def show
-    @vitals_panel = VitalsPanel.new
+    @vitals = VitalsApi.fetch["vitals"]
   end
 end

@@ -1,1 +1,6 @@
-<h1>First Vital Abberviation: <%= @vitals_panel.first_vital_key %></h1>
+<h1>First Vital Abbreviation: <%= @vitals.first["abbreviation"] %></h1>
+
+<hr>
+
+<strong>Full vitals response</strong>
+<pre><%= JSON.pretty_generate(@vitals) %></pre>
