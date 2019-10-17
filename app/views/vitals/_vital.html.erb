@@ -1,0 +1,18 @@
+<table border=1>
+  <tbody>
+    <tr>
+      <td><%= vital.label %></td>
+      <%- vital.readings.each do |reading| %>
+        <td>
+          <%= reading[:numerator] %>
+          <%- if reading[:denominator] %>
+            / <%= reading[:denominator] %>
+          <% end %>
+          <%= vital.unit %>
+          <br/>
+          <%= reading[:date] %>
+        </td>
+      <% end %>
+    </tr>
+  </tbody>
+</table>
