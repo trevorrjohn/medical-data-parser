@@ -1,6 +1,8 @@
-<h1>First Vital Abbreviation: <%= @vitals.first["abbreviation"] %></h1>
 
-<hr>
+<h1> Vital Signs </h1>
 
-<strong>Full vitals response</strong>
-<pre><%= JSON.pretty_generate(@vitals) %></pre>
+<%= render "vital", vital: @presenter.temperature %>
+<br>
+<%= render "vital", vital: @presenter.blood_pressure %>
+<br>
+<%= render "vital", vital: @presenter.heart_rate %>
